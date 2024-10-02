@@ -11,7 +11,7 @@ class PyGraphr:
         pygame.display.set_icon(pygame_icon)
 
         # Load graph data
-        self.graph_path = "C:/Users/rodri/ISCTE/3Ano/IA/pyGraphr/src/raphs/graph.txt"
+        self.graph_path = "C:/Users/rodri/ISCTE/3Ano/IA/pyGraphr/src/graphs/graph.txt"
         self.graph = Graph(self.graph_path)
 
         # Initialize the GUI Manager
