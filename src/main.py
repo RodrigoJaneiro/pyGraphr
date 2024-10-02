@@ -7,11 +7,11 @@ class PyGraphr:
         print("[ROOT] Starting pyGame...")
         pygame.init()
         pygame.display.set_caption('pyGraphr v1.4 - A Python Graph Traversal Visualizer')
-        pygame_icon = pygame.image.load('C:/Users/Rodrigo/Documents/ISCTE/3º Ano/AI/pyGraphr/src/utils/pygraphr-logo.jpeg')
+        pygame_icon = pygame.image.load('C:/Users/rodri/ISCTE/3Ano/IA/pyGraphr/src/utils/pygraphr-logo.jpeg')
         pygame.display.set_icon(pygame_icon)
 
         # Load graph data
-        self.graph_path = "C:/Users/Rodrigo/Documents/ISCTE/3º Ano/AI/pyGraphr/src/graphs/graph.txt"
+        self.graph_path = "C:/Users/rodri/ISCTE/3Ano/IA/pyGraphr/src/raphs/graph.txt"
         self.graph = Graph(self.graph_path)
 
         # Initialize the GUI Manager
