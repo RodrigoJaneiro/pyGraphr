@@ -37,7 +37,7 @@ class GUIManager:
 
         self.screen = pygame.display.set_mode(self.window_size)
         self.color_legend = ColorLegend(self.legend_margin_left, self.window_size[1] - 40)
-        self.manager = pygame_gui.UIManager(self.window_size, './gui/theme.json')
+        self.manager = pygame_gui.UIManager(self.window_size, 'src/gui/theme.json')
         self.nodes = {name: Node(name, pos) for name, pos in hierarchy_pos(self.graph.nx_graph).items()}
 
         # UI elements configs

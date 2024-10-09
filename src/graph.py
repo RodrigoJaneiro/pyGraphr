@@ -54,3 +54,9 @@ class Graph:
         Returns the cost (weight) between two given nodes.
         """
         return self.nx_graph[node1][node2]['weight']
+    
+    def get_heuristic(self, node):
+        """
+        Returns the heuristic value of a given node.
+        """
+        return self.nodes[node].heuristic
